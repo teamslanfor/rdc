@@ -1,0 +1,12 @@
+{
+  "name": "rdc-locksmiths",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for RDC Locksmiths, Inverness",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "npm run build && node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
